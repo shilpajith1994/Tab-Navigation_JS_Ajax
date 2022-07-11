@@ -103,52 +103,74 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
 
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+.loadSection { padding: 50px 0; }
 
+h1,
+span , 
+.loadBtn { text-align: center; }
 
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
+span { 
+  margin: 10px 0;
+  display: block;
+  font-size: 15px;
+  font-style:italic ;
+  text-transform: capitalize;
+}
 
+.list {
+  width: 96%;
+  padding: 10px 15px;
+  border: 2px solid #808080;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: none;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+.list span { text-align: left; }
+.active { display: none; }
 
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+}
 
+.tabs li:hover {
+  border-bottom: 3px solid #FF0000; 
+  background-color: #ddd; }
 
+.tabs li { 
+  padding: 10px;
+  border-bottom: 3px solid  #f1f1f1;
+  transition: .3s ease-in-out; 
+}
+
+.tabs li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.userDetails { margin: 30px 0; }
+.active { display: block; }
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
